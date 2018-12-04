@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+
+    <form method="post" action="duomenucentras.php">
+        <fieldset>
+         <legend><h3>Jūsų informacija</h3></legend>
+        Vartotojo vardas <br>
+        <input type="text" name="username" /><br>
+
+        Slaptažodis <br>
+        <input type="text" name="password" /><br>
+        <input type="submit">
+
+        </fieldset>
+        <fieldset>
+         <legend><h3>Klausimai</h3></legend>
+          <tr>
+          <td>Kaip sužinojote apie mus?</td>
+
+          <td>
+          <select name="portal">
+            <option value="1">Google</option>
+            <option value="2">Draugai</option>
+            <option value="3">Kiti šaltiniai</option>
+          </select>
+         </td>
+        <tr>
+
+            <div>
+         <td>Ar apsilankysite vėl?</td>
+            </div>
+         <td>
+            <div>
+            Taip<input type="radio" name="answer" value="yes">
+            Ne<input type="radio" name="answer" value="no">
+            Galbūt<input type="radio" name="answer" value="maybe">
+            </div>
+         </td>
+        <tr>
+            <br>
+         <td>Ką manai apie kursą?</td>
+            </br>
+
+         <td>
+            <div>
+          <textarea name="comment" >Rašykite viską ką galvojate</textarea>
+            </div>
+         </td>
+        </tr>
+        <tr>
+          <td>Kokia kalba programuojate?</td>
+          <td>
+            <div>
+           C <input type="checkbox" name="planguege" value="csharp">
+           Java <input type="checkbox" name="planguege" value="Java">
+           PHP <input type="checkbox" name="planguege" value="php">
+           Javascript <input type="checkbox" name="planguege" value="javascript">
+           Python <input type="checkbox" name="planguege" value="python">
+           Ruby <input type="checkbox" name="planguege" value="Ruby">
+              </div>
+          </td>
+        </tr>
+        <tr>
+         <td>
+           <input type="submit" class="Siūsti" value="Siūsti">
+         </td>
+        </tr>
+        </fieldset>
+</body>
+</html>
