@@ -1,0 +1,80 @@
+.conteiner{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    background-color: silver;
+}
+h1 {
+  color: rgb(104, 105, 95);
+  font-family: Arial;
+  background-color: rgb(221,221,218);
+}
+
+div {
+
+   background-color: silver;
+}
+p {
+   color: #fff;
+   padding: 5px;
+   margin: 0;
+   font-family: Arial;
+   font-size: 12px;
+}
+.keturiolika {
+  background-color: rgb(53, 122, 175);
+}
+
+.trylika {
+  background-color: rgb(54, 134, 185);
+}
+
+.dvylika {
+  background-color: #3293c3;
+}
+
+.vienuolika {
+  background-color: #469fcb;
+}
+
+.desimt {
+  background-color: #5fadd2;
+}
+
+.devyni {
+  background-color: #75bada;
+}
+
+.astuoni {
+  background-color: #8dc4df;
+}
+
+.septyni {
+  background-color: #23ab7e;
+}
+
+.sesi {
+  background-color: #e7abc1;
+}
+.penki{
+  background-color: #e799b5;
+}
+.keturi {
+  background-color: #e587a7;
+}
+
+.trys {
+  background-color: #e2749a;
+}
+
+.du {
+  background-color: #e0658a;
+}
+
+.vienas {
+  background-color: #db5580;
+}
+
+.nulis {
+  background-color: #da3d75;
+}
