@@ -7,7 +7,7 @@ class Human {
 
    public function labas() {
 
-       return 'Sveiki ,as esu <i>' .$this–>name . $this–>surname . '<br>';
+       return 'Sveiki ,as esu <i>' .$this–>name .'</i>' $this–>surname . '<br>';
    }
 
 }
